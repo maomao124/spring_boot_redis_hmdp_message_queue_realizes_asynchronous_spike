@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
  * Date(创建日期)： 2022/5/17
  * Time(创建时间)： 22:23
  * Version(版本): 1.0
- * Description(描述)： RabbitMQ基本配置
+ * Description(描述)： RabbitMQ基本配置，暂时不考虑消息丢失问题
  */
 
 @Configuration
