@@ -5,3 +5,25 @@
 2022-05-17 22:52:33.756  INFO 20184 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
 2022-05-17 22:52:33.771  INFO 20184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-17 22:52:33.773  INFO 20184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-17 22:53:08.697  INFO 20300 --- [main] ealizesAsynchronousSpikeApplicationTests : Starting SpringBootRedisHmdpMessageQueueRealizesAsynchronousSpikeApplicationTests using Java 16.0.2 on mao with PID 20300 (started by mao in H:\程序\大三下期\spring_boot_redis_hmdp消息队列实现异步秒杀)
+2022-05-17 22:53:08.698 DEBUG 20300 --- [main] ealizesAsynchronousSpikeApplicationTests : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-17 22:53:08.699  INFO 20300 --- [main] ealizesAsynchronousSpikeApplicationTests : The following 1 profile is active: "dev"
+2022-05-17 22:53:09.797  INFO 20300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-17 22:53:09.802  INFO 20300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-17 22:53:09.834  INFO 20300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-17 22:53:10.829  INFO 20300 --- [main] org.redisson.Version                     : Redisson 3.17.0
+2022-05-17 22:53:11.161  INFO 20300 --- [redisson-netty-2-19] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 22:53:11.176  INFO 20300 --- [redisson-netty-2-20] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 22:53:11.383  INFO 20300 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-17 22:53:11.586  INFO 20300 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-17 22:53:15.507  INFO 20300 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-17 22:53:15.632  INFO 20300 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-17 22:53:15.721  INFO 20300 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#21ce3b22:0/SimpleConnection@7b9d602c [delegate=amqp://admin@127.0.0.1:5672/, localPort= 58117]
+2022-05-17 22:53:15.734  INFO 20300 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-17 22:53:15.735  INFO 20300 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-17 22:53:15.847  INFO 20300 --- [main] ealizesAsynchronousSpikeApplicationTests : Started SpringBootRedisHmdpMessageQueueRealizesAsynchronousSpikeApplicationTests in 7.549 seconds (JVM running for 8.501)
+2022-05-17 22:53:16.682  INFO 20300 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-17 22:53:16.831  INFO 20300 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-17 22:53:16.834  INFO 20300 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-17 22:53:16.877  INFO 20300 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-17 22:53:16.879  INFO 20300 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
